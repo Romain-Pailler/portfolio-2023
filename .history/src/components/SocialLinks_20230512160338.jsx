@@ -39,7 +39,7 @@ const SocialLinks = () => {
                     CV <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/CV_Romain_PAILLER-2023.pdf',
+            href:'/CV_Romain_PAILLER_2023.pdf',
             style: 'rounded-br-md',
             download: true,
         },
