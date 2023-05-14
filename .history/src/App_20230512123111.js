@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
@@ -9,6 +10,9 @@ import SocialLinks from "./components/SocialLinks";
 function App() {
   return (
     <div>
+      <Helmet>
+        <title>Portfolio de Romain</title>
+      </Helmet>
       <NavBar />
       <Home />
       <About/>
