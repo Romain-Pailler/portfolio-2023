@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { BsFileEarmarkExcelFill, BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGitlab, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 const SocialLinks = () => {
@@ -40,9 +40,18 @@ const SocialLinks = () => {
                 </>
             ),
             href:'/CV_Romain_PAILLER-2023.pdf',
-            style: 'rounded-br-md',
             download: true,
         },
+        {
+            id: 5,
+            child: (
+                <>
+                    Tableau de synthèse <BsFileEarmarkExcelFill size={40}/>
+                </>
+            ),
+            href:'https://gitlab.com/Romain-Pailler',
+            style: 'rounded-br-md'
+        }
     ];
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>

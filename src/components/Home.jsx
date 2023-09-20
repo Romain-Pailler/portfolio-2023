@@ -12,10 +12,10 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:mt-0'>
                 <div className='flex flex-col justify-center h-full mr-4'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white ml-1'>
-                        Je suis un étudiant en développement Web
+                        Romain PAILLER, étudiant en BTS SIO
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        Actuellement étudiant en BTS SIO, je réalise des projets orientés web mais pas que ! J'adore le Java, le PHP ainsi que le JavaScript !!!
+                        Actuellement étudiant en BTS SIO option SLAM, je réalise des projets orientés web mais pas que !
                     </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>

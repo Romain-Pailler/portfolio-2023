@@ -26,6 +26,11 @@ const NavBar = () => {
         },
         {
             id:6,
+            link: 'veilles technologiques',
+            to:'experience'
+        },
+        {
+            id:7,
             link: 'contact',
             to:'contact'
         }
