@@ -2,23 +2,44 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-full bg-gradient-to-b from-gray-800 to-black text-white'>
+    <div name="about" className='w-full bg-gradient-to-b from-gray-800 to-black text-white'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>À propos</p>
             </div>
             <p className='text-xl mt-20'>
             Bonjour !<br/> <br/>
-            Je m'appelle Romain, j'ai 22 ans et je suis passionné d'informatique depuis toujours. Mon intérêt pour la programmation m'a amené à poursuivre des études dans ce domaine. <br/>Je suis actuellement en BTS SIO options SLAM à l'école IPSSI à Marne-la-Vallée, où j'ai acquis des compétences solides en développement web et en programmation orientée objet. <br/> <br/>Avant cela, j'ai effectué deux ans de licence en Informatique générale à l'université de Paris où j'ai pu découvrir le monde de la programmation.<br/>Ensuite je compte effectuer par la suite un Bachelor Développement fullstack & DevOps au sein de cette école.<br/><br/>
-
-            Mes centres d'intérêt, en dehors de l'informatique, sont la course à pied et le cinéma. La course m'aide à me ressourcer et à me concentrer, tandis que le cinéma m'inspire et me divertit.
+            Je m'appelle Romain, j'ai 22 ans et je suis passionné d'informatique depuis le lycée. Mon intérêt pour la programmation m'a amené à poursuivre des études dans ce domaine. <br/>Je suis actuellement en BTS SIO options SLAM à l'école IPSSI à Marne-la-Vallée. <br/> <br/>Ensuite je compte effectuer par la suite un Bachelor Développement fullstack & DevOps au sein de cette école.
             </p>
-            <br />
-            <p className='text-xl'>
+            <p className='text-xl pb-12'>
               <br/>
-            Mon objectif professionnel est de devenir développeur FullStack. J'apprécie particulièrement le défi de travailler sur des projets de grande envergure et de résoudre des problèmes complexes. <br/><br/>Ainsi ce portfolio est une vitrine de mes compétences en programmation et en développement web. J'y présente mes projets et mes réalisations académiques, dans l'espoir de trouver de nouvelles opportunités professionnelles.<br/>
+            Mon objectif professionnel est de devenir développeur FullStack. J'apprécie particulièrement le défi de travailler sur des projets de grande envergure et de résoudre des problèmes complexes.
             </p>
-
+            <div className='pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Présentation du BTS</p>
+            </div>
+            <p className='text-xl mt-20'>
+            Le Brevet de Technicien Superieur Services informatiques aux Organisations (BTS SIO) s’adresse a ceux qui souhaitent se former
+            en deux ans aux metiers d’administrateur reseau ou de developpeur pour integrer directement le marche du travail ou continuer des etudes dans le domaine de l’informatique.<br/><br />
+            Les débouchés Option SLAM :
+            <li>Developpeur d'applications informatiques</li>
+            <li>Developpeur informatique</li>
+            <li>Analyste d'applications ou d'etudes</li>
+            <li>Analyste programmeur</li>
+            <li>Charge d'etudes informatiques</li>
+            <br />
+            <br />
+            Option SISR :
+            <li>Technicien de production</li>
+            <li>Technicien d’infrastructure</li>
+            <li>Technicien reseau et telecoms</li>
+            <li>Technicien systemes et reseaux</li>
+            <br />
+            <br />
+            La cybersécurité :
+            <br />
+            Pour repondre au besoin actuel du domaine informatique, la securite des donnees professionnelles et personnelles sont devenu l'un des points primordiaux de cette formation. Au vu de l'augmentation des vols de donnees et de l'evolution des techniques d'arnaques, les entreprises souhaitent developper la cybersecurite. <br /> C'est a cet effet, que le BTS SIO s'est reforme et est maintenant plus axe sur la securite. Les deux sections apprennent donc a securiser leurs codes pour les SLAM et l'Infrastructure reseau pour les SISR.
+            </p>
         </div>
     </div>
   )

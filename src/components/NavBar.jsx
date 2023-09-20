@@ -27,7 +27,7 @@ const NavBar = () => {
         {
             id:6,
             link: 'veilles technologiques',
-            to:'experience'
+            to:'veille'
         },
         {
             id:7,
