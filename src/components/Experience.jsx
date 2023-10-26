@@ -70,13 +70,13 @@ const Experience = () => {
         {
             id: 10,
             src: react,
-            title: 'React (Bientôt)',
+            title: 'React',
             style: 'shadow-blue-500'
         },
         {
             id: 11,
             src: Angular,
-            title: 'Angular (Bientôt)',
+            title: 'Angular',
             style: 'shadow-red-600'
         },
         {
