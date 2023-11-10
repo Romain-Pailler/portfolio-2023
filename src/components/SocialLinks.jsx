@@ -49,33 +49,38 @@ const SocialLinks = () => {
                     Tableau de synthèse <BsFileEarmarkExcelFill size={40}/>
                 </>
             ),
-            href:'https://gitlab.com/Romain-Pailler',
+            href:'/Tableau-de-synthese-E4.pdf',
+            download:true,
             style: 'rounded-br-md'
         }
     ];
-  return (
+return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
-            {links.map((links) => (
+            {links.map((link) => (
                 <li 
-                key={links.id} 
-                className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 bg-gray-500" + 
-                " " + 
-                links.style
-                }
+                    key={link.id} 
+                    className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 bg-gray-500" + 
+                    " " + 
+                    link.style
+                    }
                 >
                     <a 
-                    href={links.href}
-                    className='flex justify-between items-center w-full text-white' 
-                    download={links.download}
-                    target='_blank' rel="noreferrer">
-                        {links.child}
+                        href={link.href}
+                        className='flex justify-between items-center w-full text-white'
+                        target={link.download ? '_blank' : undefined}
+                        rel={link.download ? 'noopener noreferrer' : undefined}
+                    >
+                        {link.child}
                     </a>
                 </li>
             ))}
         </ul>
     </div>
-  )
+);
+
+// ...
+
 }
 
 export default SocialLinks
