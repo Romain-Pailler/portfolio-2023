@@ -1,7 +1,6 @@
 body.active-modal {
     overflow-y: hidden;
 }
-
 .btn-modal {
     padding: 10px 20px;
     display: block;
@@ -29,11 +28,11 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #763c3c;
+    background: #211e1e;
     padding: 14px 28px;
     border-radius: 3px;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 900px;
+    min-width: 400px;
 }
 
 .close-modal {
@@ -41,4 +40,10 @@ body.active-modal {
     top: 10px;
     right: 10px;
     padding: 5px 7px;
+}
+.pdfList{
+    margin-bottom: 20px;
+}
+.pdfTitle{
+    color: #255ea9;
 }

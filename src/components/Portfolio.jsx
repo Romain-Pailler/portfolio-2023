@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import ap1 from '../assets/portfolio/ap1.png';
+import { default as ap1, default as ap2, default as Autre } from '../assets/portfolio/ap1.png';
 import Freelance from '../assets/portfolio/freelance_js.png';
 import Harmony from '../assets/portfolio/harmony.png';
 import respireStat from '../assets/portfolio/respire-stat.png';
-import Modal from './Modal/Modal'; // Assurez-vous d'importer correctement le composant Modal
+import Modal from './Modal/Modal';
 
 const Portfolio = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,91 +22,84 @@ const Portfolio = () => {
             titre: "Shop_def", 
             src:ap1,
             site:"https://ap1-shop-def.netlify.app/",
-            gitlab:"https://gitlab.com/rb2720812/projetfacturebr",
             pdfLinks: [
-                { name: 'Document 1', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 2', url: 'lien_vers_document_2.pdf' }
+                { name: 'Présentation', url: 'lien_vers_document_1.pdf' },
+                { name: 'Devis', url: 'lien_vers_document_2.pdf' },
+                { name: 'Facture', url: 'lien_vers_document_2.pdf' },
+                { name: 'Fiche de poste', url: 'lien_vers_document_2.pdf' },
+                { name: 'Kbis', url: 'lien_vers_document_2.pdf' },
+                { name: 'Business Plan', url: 'lien_vers_document_2.pdf' },
             ]
         },
         {
             id:2,
-            titre: "", 
-            src:Freelance,
-            site: "https://ma-facturation-freelance.netlify.app/",
-            gitlab:"https://gitlab.com/rb2720812/projetfacturebr",
+            titre: "Atelier Professionnel 2", 
+            src:ap2,
+            style: "hidden",
             pdfLinks: [
-                { name: 'Document 3', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 4', url: 'lien_vers_document_2.pdf' }
+                { name: 'Présentation', url: 'lien_vers_document_1.pdf' }
             ]
         },
         {
             id:3,
-            titre: "", 
-            src:Harmony,
-            site: "https://harmony.ipssi-sio.fr",
-            gitlab: "https://gitlab.com/la-biblioth-que-qui-lit/la-bibliotheque-qui-lit",
+            titre: "Ma facture Freelance", 
+            src:Freelance,
+            site: "https://ma-facturation-freelance.netlify.app/",
             pdfLinks: [
-                { name: 'Document 5', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 6', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
             ]
 
         },
         {
             id:4,
-            titre: "", 
+            titre: "Respire Stat", 
             src:respireStat,
             style: "hidden",
-            gitlab: "https://gitlab.com/Romain-Pailler/respirestatg7",
             pdfLinks: [
-                { name: 'Document 7', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 8', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation en Français', url: 'lien_vers_document_1.pdf' },
+                { name: 'Documentation en Anglais', url: 'lien_vers_document_2.pdf' }
             ]
 
         },
+        {
+            id:5,
+            titre: "Autre",
+            src: Autre,
+            style: "hidden",
+            pdfLinks:[
+                { name: 'Créer un compte LinkedIn', url: 'lien_vers_document_1.pdf'},
+                { name: 'GLPI', url: 'lien_vers_document_1.pdf'},
+                { name: 'Inventaire de la baie informatique', url: 'lien_vers_document_1.pdf'},
+                { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
+            ]
+        }
     ];
     const portfolio_entreprise = [
         {
             id:1,
-            titre: "", 
+            titre: "TimeHebdo", 
             src:ap1,
             site:"https://ap1-shop-def.netlify.app/",
-            gitlab:"https://gitlab.com/rb2720812/projetfacturebr",
             pdfLinks: [
-                { name: 'Document 9', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 10', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
             ]
         },
         {
             id:2,
-            titre: "", 
+            titre: "Pwopp", 
             src:Freelance,
-            site: "https://ma-facturation-freelance.netlify.app/",
-            gitlab:"https://gitlab.com/rb2720812/projetfacturebr",
+            style: "hidden",
             pdfLinks: [
-                { name: 'Document 11', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 12', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
             ]
         },
         {
             id:3,
-            titre: "", 
+            titre: "Alpizen", 
             src:Harmony,
             site: "https://harmony.ipssi-sio.fr",
-            gitlab: "https://gitlab.com/la-biblioth-que-qui-lit/la-bibliotheque-qui-lit",
             pdfLinks: [
-                { name: 'Document 13', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 14', url: 'lien_vers_document_2.pdf' }
-            ]
-        },
-        {
-            id:4,
-            titre: "", 
-            src:respireStat,
-            style: "hidden",
-            gitlab: "https://gitlab.com/Romain-Pailler/respirestatg7",
-            pdfLinks: [
-                { name: 'Document 15', url: 'lien_vers_document_1.pdf' },
-                { name: 'Document 16', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
             ]
         },
     ];

@@ -9,10 +9,12 @@ const Modal = ({ isOpen, onClose, title, pdfLinks }) => {
         <div className="modal">
           <div onClick={onClose} className="overlay"></div>
           <div className="modal-content">
-            <h2>{title}</h2>
+            <h2 className='pdfTitle'>{title}</h2>
+            <br/>
+            <br/>
             <ul>
               {pdfLinks.map((link, index) => (
-                <li key={index}>
+                <li key={index} className="pdfList">
                   <a href={link.url} target="_blank" rel="noopener noreferrer">
                     {link.name}
                   </a>
