@@ -70,6 +70,7 @@ const Portfolio = () => {
             style: "hidden",
             pdfLinks:[
                 { name: 'GLPI', url: '/documentation/glpi.pdf'},
+                { name: 'Baie Informatique', url: '/documentation/baie.pdf'}
                 // { name: 'Inventaire de la baie informatique', url: 'lien_vers_document_1.pdf'},
                 // { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
             ]
