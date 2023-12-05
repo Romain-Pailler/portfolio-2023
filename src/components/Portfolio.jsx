@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { default as ap1, default as ap2, default as Autre } from '../assets/portfolio/ap1.png';
+import glpi from '../assets/glpi.png';
+import alpizen from '../assets/portfolio/alpizen.png';
+import { default as ap1, default as Autre } from '../assets/portfolio/ap1.png';
 import Freelance from '../assets/portfolio/freelance_js.png';
-import Harmony from '../assets/portfolio/harmony.png';
+import pwopp from '../assets/portfolio/pwopp.png';
 import respireStat from '../assets/portfolio/respire-stat.png';
 import Modal from './Modal/Modal';
 
@@ -23,21 +25,21 @@ const Portfolio = () => {
             src:ap1,
             site:"https://ap1-shop-def.netlify.app/",
             pdfLinks: [
-                { name: 'Présentation', url: 'lien_vers_document_1.pdf' },
-                { name: 'Devis', url: 'lien_vers_document_2.pdf' },
-                { name: 'Facture', url: 'lien_vers_document_2.pdf' },
-                { name: 'Fiche de poste', url: 'lien_vers_document_2.pdf' },
-                { name: 'Kbis', url: 'lien_vers_document_2.pdf' },
+                { name: 'Présentation', url: '/documentation/ap1/Diapo_Shop_def.pdf' },
+                { name: 'Devis', url: '/documentation/ap1/Devis DivinByDivin - DivinByDivin.pdf' },
+                { name: 'Facture', url: '/documentation/ap1/Facture N°1 - DivinByDivin.pdf' },
+                { name: 'Fiche de poste', url: 'documentation/ap1/Fiche_de_poste.pdf' },
+                { name: 'Kbis', url: '/documentation/ap1/KBIS.pdf' },
                 { name: 'Business Plan', url: 'lien_vers_document_2.pdf' },
             ]
         },
         {
             id:2,
             titre: "Atelier Professionnel 2", 
-            src:ap2,
+            src:'/documentation/ap2/ap2.png',
             style: "hidden",
             pdfLinks: [
-                { name: 'Présentation', url: 'lien_vers_document_1.pdf' }
+                { name: 'Présentation', url: '/documentation/Shop_M2L.pdf' }
             ]
         },
         {
@@ -46,7 +48,7 @@ const Portfolio = () => {
             src:Freelance,
             site: "https://ma-facturation-freelance.netlify.app/",
             pdfLinks: [
-                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
+                { name: 'Documentation', url: '/documentation/factureFreelance/factureFreelance.pdf' }
             ]
 
         },
@@ -56,21 +58,20 @@ const Portfolio = () => {
             src:respireStat,
             style: "hidden",
             pdfLinks: [
-                { name: 'Documentation en Français', url: 'lien_vers_document_1.pdf' },
-                { name: 'Documentation en Anglais', url: 'lien_vers_document_2.pdf' }
+                { name: 'Documentation en Français', url: '/documentation/respireStat/Manuel_utilisation_RespireStat.pdf' },
+                { name: 'Documentation en Anglais', url: '/documentation/respireStat/User_manual_RespireStat.pdf' }
             ]
 
         },
         {
             id:5,
-            titre: "Autre",
-            src: Autre,
+            titre: "Autres",
+            src: glpi,
             style: "hidden",
             pdfLinks:[
-                { name: 'Créer un compte LinkedIn', url: 'lien_vers_document_1.pdf'},
-                { name: 'GLPI', url: 'lien_vers_document_1.pdf'},
-                { name: 'Inventaire de la baie informatique', url: 'lien_vers_document_1.pdf'},
-                { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
+                { name: 'GLPI', url: '/documentation/glpi.pdf'},
+                // { name: 'Inventaire de la baie informatique', url: 'lien_vers_document_1.pdf'},
+                // { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
             ]
         }
     ];
@@ -78,28 +79,28 @@ const Portfolio = () => {
         {
             id:1,
             titre: "TimeHebdo", 
-            src:ap1,
-            site:"https://ap1-shop-def.netlify.app/",
+            src:'/Documentation/timehebdo/timehebdo.png',
+            site:"https://timehebdo.com/",
             pdfLinks: [
-                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
+                { name: 'Documentation', url: '/documentation/timeHebdo/timeHebdo.pdf' }
             ]
         },
         {
             id:2,
             titre: "Pwopp", 
-            src:Freelance,
+            src:pwopp,
             style: "hidden",
             pdfLinks: [
-                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
+                { name: 'Documentation', url: 'documentation/pwopp/pwopp.pdf' }
             ]
         },
         {
             id:3,
             titre: "Alpizen", 
-            src:Harmony,
+            src:alpizen,
             site: "https://harmony.ipssi-sio.fr",
             pdfLinks: [
-                { name: 'Documentation', url: 'lien_vers_document_1.pdf' }
+                { name: 'Documentation', url: 'documentation/Alpizen/alpizen.pdf' }
             ]
         },
     ];
@@ -117,7 +118,7 @@ const Portfolio = () => {
                         <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                         <div className="flex items-center justify-center">
                             <a href={site} target="_blank" rel="noreferrer">
-                                <button className={`w-2/3 px-6 py-3 m-4 duration-200 hover:scale-105 ${style}`}>
+                                <button className={`w-3/4 px-4 py-3 m-4 duration-200 hover:scale-105 ${style}`}>
                                     Voir le site
                                 </button>
                             </a>
@@ -142,7 +143,7 @@ const Portfolio = () => {
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                             <div className='flex items-center justify-center'>
                                 <a href={site} target="_blank" rel="noreferrer">
-                                    <button className={`w-2/3 px-6 py-3 m-4 duration-200 hover:scale-105 ${style}`}>Voir le site</button>
+                                    <button className={`w-2/3 px-3 py-3 m-4 duration-200 hover:scale-105 ${style}`}>Voir le site</button>
                                 </a>
                                 <button
                             onClick={() => openModal(pdfLinks, titre)}

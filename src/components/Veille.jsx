@@ -1,11 +1,11 @@
 import React from 'react';
-import framework from '../assets/portfolio/harmony.png';
+import veilleTechno1 from '../assets/veille_techno_1_image.png';
 const Veille = () => {
     const veilles = [
         {
             id:1,
-            src:framework,
-            powerpoint:"https://ap1-shop-def.netlify.app/",
+            src:veilleTechno1,
+            powerpoint:"/Documentation/veille_techo_1.pdf",
         }
     ];
 return(
