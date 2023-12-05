@@ -38,7 +38,8 @@ const About = () => {
             <br />
             La cybersécurité :
             <br />
-            Pour repondre au besoin actuel du domaine informatique, la securite des donnees professionnelles et personnelles sont devenu l'un des points primordiaux de cette formation. Au vu de l'augmentation des vols de donnees et de l'evolution des techniques d'arnaques, les entreprises souhaitent developper la cybersecurite. <br /> C'est a cet effet, que le BTS SIO s'est reforme et est maintenant plus axe sur la securite. Les deux sections apprennent donc a securiser leurs codes pour les SLAM et l'Infrastructure reseau pour les SISR.
+            <br />
+            Pour répondre au besoin actuel du domaine informatique, la sécurité des données professionnelles et personnelles sont devenu l'un des points primordiaux de cette formation. Au vu de l'augmentation des vols de données et de l'évolution des techniques d'arnaques, les entreprises souhaitent developper la cybersecurité. <br /> C'est a cet effet, que le BTS SIO s'est reformé et est maintenant plus axé sur la securité. Les deux sections apprennent donc à sécuriser leurs codes pour les SLAM et l'Infrastructure reseau pour les SISR.
             </p>
         </div>
     </div>
