@@ -80,7 +80,7 @@ const Portfolio = () => {
             id:1,
             titre: "TimeHebdo", 
             src:'/Documentation/timehebdo/timehebdo.png',
-            site:"https://timehebdo.com/",
+            style: "hidden",
             pdfLinks: [
                 { name: 'Documentation', url: '/documentation/timeHebdo/timeHebdo.pdf' }
             ]
@@ -98,7 +98,7 @@ const Portfolio = () => {
             id:3,
             titre: "Alpizen", 
             src:alpizen,
-            site: "https://harmony.ipssi-sio.fr",
+            site: "https://alpizen.fr/",
             pdfLinks: [
                 { name: 'Documentation', url: 'documentation/Alpizen/alpizen.pdf' }
             ]
