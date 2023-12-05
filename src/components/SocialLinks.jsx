@@ -49,7 +49,7 @@ const SocialLinks = () => {
                     Tableau de synthèse <BsFileEarmarkExcelFill size={40}/>
                 </>
             ),
-            href:'/Tableau-de-synthese-E4.pdf',
+            href:'/documentation/Tableau-de-synthese-E4.pdf',
             download:true,
             style: 'rounded-br-md'
         }
