@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import glpi from '../assets/glpi.png';
 import alpizen from '../assets/portfolio/alpizen.png';
-import { default as ap1, default as Autre } from '../assets/portfolio/ap1.png';
+import ap1 from '../assets/portfolio/ap1.png';
 import Freelance from '../assets/portfolio/freelance_js.png';
 import pwopp from '../assets/portfolio/pwopp.png';
 import respireStat from '../assets/portfolio/respire-stat.png';
