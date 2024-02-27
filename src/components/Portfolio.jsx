@@ -44,6 +44,17 @@ const Portfolio = () => {
         },
         {
             id:3,
+            titre: "Atelier Professionnel 3", 
+            src:'/documentation/ap3/ap3.png',
+            style: "hidden",
+            pdfLinks: [
+                { name: 'Documentation Technique ', url: '/documentation/ap3/Docu_Technique_M2L.pdf' },
+                { name: 'Documentation Utilisateur ', url: '/documentation/ap3/M2L_Doc_Utilisateur.pdf' }
+            ]
+
+        },
+        {
+            id:4,
             titre: "Ma facture Freelance", 
             src:Freelance,
             site: "https://ma-facturation-freelance.netlify.app/",
@@ -53,7 +64,7 @@ const Portfolio = () => {
 
         },
         {
-            id:4,
+            id:5,
             titre: "Respire Stat", 
             src:respireStat,
             style: "hidden",
@@ -64,7 +75,7 @@ const Portfolio = () => {
 
         },
         {
-            id:5,
+            id:6,
             titre: "Autres",
             src: glpi,
             style: "hidden",
@@ -102,6 +113,15 @@ const Portfolio = () => {
             site: "https://alpizen.fr/",
             pdfLinks: [
                 { name: 'Documentation', url: 'documentation/Alpizen/alpizen.pdf' }
+            ]
+        },
+        {
+            id:4,
+            titre: "Leasa", 
+            src:'/alternance/Leasa_Equasens.png',
+            style: "hidden",
+            pdfLinks: [
+                { name: 'Page de Recherche', url: 'alternance/Page-de-recherche.pdf' }
             ]
         },
     ];

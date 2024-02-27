@@ -15,6 +15,9 @@ const About = () => {
               <br/>
             Mon objectif professionnel est de devenir développeur FullStack. J'apprécie particulièrement le défi de travailler sur des projets de grande envergure et de résoudre des problèmes complexes.
             </p>
+            <p className='text-xl pb-12'>
+              Etant actuellement en alternance au sein de Equasens, j’ai l’opportunité de me confronter à une réel environnement professionnel avec ses problématiques, ses besoins et de comprendre comment amener les solutions. Je me réjouis également d’observer l’amélioration de mes compétences en développement. C’est en toute logique que je souhaite poursuivre mes études en apprentissage afin d’avoir un socle solide en sortie de parcours.
+            </p>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Présentation du BTS</p>
             </div>

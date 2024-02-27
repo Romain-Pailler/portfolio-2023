@@ -1,11 +1,17 @@
 import React from 'react';
 import veilleTechno1 from '../assets/veille_techno_1_image.png';
+import veilleTechno2 from '../assets/veille_techno_2_image.png';
 const Veille = () => {
     const veilles = [
         {
             id:1,
             src:veilleTechno1,
-            powerpoint:"/Documentation/veille_techo_1.pdf",
+            powerpoint:"/Documentation/veille_techno_1.pdf",
+        },
+        {
+            id:2,
+            src:veilleTechno2,
+            powerpoint:"/Documentation/veille_techno_2.pdf",
         }
     ];
 return(
