@@ -63,17 +63,17 @@ const Portfolio = () => {
             ]
 
         },
-        {
-            id:5,
-            titre: "Respire Stat", 
-            src:respireStat,
-            style: "hidden",
-            pdfLinks: [
-                { name: 'Documentation en Français', url: '/documentation/respireStat/Manuel_utilisation_RespireStat.pdf' },
-                { name: 'Documentation en Anglais', url: '/documentation/respireStat/User_manual_RespireStat.pdf' }
-            ]
+        // {
+        //     id:5,
+        //     titre: "Respire Stat", 
+        //     src:respireStat,
+        //     style: "hidden",
+        //     pdfLinks: [
+        //         { name: 'Documentation en Français', url: '/documentation/respireStat/Manuel_utilisation_RespireStat.pdf' },
+        //         { name: 'Documentation en Anglais', url: '/documentation/respireStat/User_manual_RespireStat.pdf' }
+        //     ]
 
-        },
+        // },
         {
             id:6,
             titre: "Autres",
@@ -82,7 +82,6 @@ const Portfolio = () => {
             pdfLinks:[
                 { name: 'GLPI', url: '/documentation/glpi.pdf'},
                 { name: 'Baie Informatique', url: '/documentation/baie.pdf'}
-                // { name: 'Inventaire de la baie informatique', url: 'lien_vers_document_1.pdf'},
                 // { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
             ]
         }
