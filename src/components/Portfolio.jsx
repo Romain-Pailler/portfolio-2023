@@ -4,7 +4,7 @@ import alpizen from '../assets/portfolio/alpizen.png';
 import ap1 from '../assets/portfolio/ap1.png';
 import Freelance from '../assets/portfolio/freelance_js.png';
 import pwopp from '../assets/portfolio/pwopp.png';
-import respireStat from '../assets/portfolio/respire-stat.png';
+// import respireStat from '../assets/portfolio/respire-stat.png';
 import Modal from './Modal/Modal';
 
 const Portfolio = () => {
