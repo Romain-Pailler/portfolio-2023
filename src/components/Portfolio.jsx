@@ -81,8 +81,9 @@ const Portfolio = () => {
             style: "hidden",
             pdfLinks:[
                 { name: 'GLPI', url: '/documentation/glpi.pdf'},
-                { name: 'Baie Informatique', url: '/documentation/baie.pdf'}
-                // { name: 'Comment mettre en place une veille technologique', url: 'lien_vers_document_1.pdf'},
+                { name: 'Baie Informatique', url: '/documentation/baie.pdf'},
+                { name: 'Créer un compte LinkedIn', url: 'alternance/linkedin.pdf' },
+                { name: 'Comment mettre en place une veille technologique', url: 'alternance/veille_techno_doc.pdf'},
             ]
         }
     ];
@@ -120,7 +121,8 @@ const Portfolio = () => {
             src:'/alternance/Leasa_Equasens.png',
             style: "hidden",
             pdfLinks: [
-                { name: 'Page de Recherche', url: 'alternance/Page-de-recherche.pdf' }
+                { name: 'Page de Recherche', url: 'alternance/Page-de-recherche.pdf' },
+                { name: 'Rest API', url: 'alternance/Documentation_API.pdf' },
             ]
         },
     ];
