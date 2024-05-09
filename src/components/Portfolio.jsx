@@ -123,6 +123,9 @@ const Portfolio = () => {
             pdfLinks: [
                 { name: 'Page de Recherche', url: 'alternance/Page-de-recherche.pdf' },
                 { name: 'Rest API', url: 'alternance/Documentation_API.pdf' },
+                { name: 'Diagramme de Gantt', url: 'alternance/diagramme_gantt_projet_metabase.pdf' },
+                { name: 'Docker-Compose', url: 'alternance/docker.pdf' },
+                { name: 'Installation de MongoDB', url: 'alternance/installer_MongoDB.pdf' },
             ]
         },
     ];
