@@ -30,7 +30,6 @@ const Portfolio = () => {
                 { name: 'Facture', url: '/documentation/ap1/Facture N°1 - DivinByDivin.pdf' },
                 { name: 'Fiche de poste', url: 'documentation/ap1/Fiche_de_poste.pdf' },
                 { name: 'Kbis', url: '/documentation/ap1/KBIS.pdf' },
-                { name: 'Business Plan', url: 'lien_vers_document_2.pdf' },
             ]
         },
         {
@@ -55,6 +54,17 @@ const Portfolio = () => {
         },
         {
             id:4,
+            titre: "Atelier Professionnel 4", 
+            src:'/documentation/ap4/ap4.png',
+            style: "hidden",
+            pdfLinks: [
+                { name: 'Documentation Technique ', url: '/documentation/ap4/Docu_Technique_M2L.pdf' },
+                { name: 'Documentation Utilisateur ', url: '/documentation/ap4/M2L_Doc_Utilisateur.pdf' }
+            ]
+
+        },
+        {
+            id:5,
             titre: "Ma facture Freelance", 
             src:Freelance,
             site: "https://ma-facturation-freelance.netlify.app/",
@@ -84,6 +94,8 @@ const Portfolio = () => {
                 { name: 'Baie Informatique', url: '/documentation/baie.pdf'},
                 { name: 'Créer un compte LinkedIn', url: 'alternance/linkedin.pdf' },
                 { name: 'Comment mettre en place une veille technologique', url: 'alternance/veille_techno_doc.pdf'},
+                { name: 'Comment déployer son Front-End sur le Serveur', url: 'documentation/Deploiement_front .pdf'},
+                { name: 'Comment déployer son Back-End sur le Serveur', url: 'documentation/Deploiement_back.pdf'},
             ]
         }
     ];
