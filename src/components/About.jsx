@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <p className='text-xl mt-20'>
             Bonjour !<br/><br/>
-            Je m'appelle Romain, j'ai 22 ans et je suis passionné d'informatique depuis le lycée. Mon intérêt pour la programmation m'a amené à poursuivre des études dans ce domaine. <br/>Je suis actuellement en BTS SIO options SLAM à l'école IPSSI à Marne-la-Vallée. <br/> <br/>Ensuite je compte effectuer par la suite une  Licence 3 MIASHS
+            Je m'appelle Romain, j'ai 23 ans et je suis passionné d'informatique depuis le lycée. Mon intérêt pour la programmation m'a amené à poursuivre des études dans ce domaine. <br/>Je suis actuellement en BTS SIO options SLAM à l'école IPSSI à Marne-la-Vallée. <br/> <br/>Ensuite je compte effectuer par la suite une  Licence 3 MIASHS
 Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales à l'IDMC à Nancy (54).
             </p>
             <p className='text-xl pb-12'>
