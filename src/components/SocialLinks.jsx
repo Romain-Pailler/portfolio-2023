@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFileEarmarkExcelFill, BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGitlab, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 const SocialLinks = () => {
     const links = [
@@ -18,10 +18,10 @@ const SocialLinks = () => {
             id: 2,
             child: (
                 <>
-                    GitLab <FaGitlab size={30}/>
+                    GitHub <FaGithub size={30}/>
                 </>
             ),
-            href:'https://gitlab.com/Romain-Pailler'
+            href:'https://github.com/Romain-Pailler'
         },
         {
             id: 3,
@@ -41,18 +41,8 @@ const SocialLinks = () => {
             ),
             href:'/CV_Romain_PAILLER-2023.pdf',
             download: true,
-        },
-        {
-            id: 5,
-            child: (
-                <>
-                    Tableau de synthèse <BsFileEarmarkExcelFill size={40}/>
-                </>
-            ),
-            href:'/Tableau-de-synthese-E4.pdf',
-            download:true,
             style: 'rounded-br-md'
-        }
+        },
     ];
 return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
