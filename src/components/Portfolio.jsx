@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import glpi from '../assets/glpi.png';
 import alpizen from '../assets/portfolio/alpizen.png';
 import ap1 from '../assets/portfolio/ap1.png';
+import atmosphere from '../assets/portfolio/atmosphere.png';
+import circulations from '../assets/portfolio/circulations.png';
 import Freelance from '../assets/portfolio/freelance_js.png';
 import pwopp from '../assets/portfolio/pwopp.png';
 // import respireStat from '../assets/portfolio/respire-stat.png';
@@ -24,6 +26,7 @@ const Portfolio = () => {
             titre: "Shop_def", 
             src:ap1,
             site:"https://ap1-shop-def.netlify.app/",
+            style_doc: "", 
             pdfLinks: [
                 { name: 'Présentation', url: '/documentation/ap1/Diapo_Shop_def.pdf' },
                 { name: 'Devis', url: '/documentation/ap1/Devis DivinByDivin - DivinByDivin.pdf' },
@@ -36,6 +39,7 @@ const Portfolio = () => {
             id:2,
             titre: "Atelier Professionnel 2", 
             src:'/documentation/ap2/ap2.png',
+            style_doc: "", 
             style: "hidden",
             pdfLinks: [
                 { name: 'Présentation', url: '/documentation/Shop_M2L.pdf' }
@@ -45,6 +49,7 @@ const Portfolio = () => {
             id:3,
             titre: "Atelier Professionnel 3", 
             src:'/documentation/ap3/ap3.png',
+            style_doc: "", 
             style: "hidden",
             pdfLinks: [
                 { name: 'Documentation Technique ', url: '/documentation/ap3/Docu_Technique_M2L.pdf' },
@@ -56,6 +61,7 @@ const Portfolio = () => {
             id:4,
             titre: "Atelier Professionnel 4", 
             src:'/documentation/ap4/ap4.png',
+            style_doc: "", 
             style: "hidden",
             pdfLinks: [
                 { name: 'Documentation Technique ', url: '/documentation/ap4/Docu_Technique_M2L.pdf' },
@@ -67,6 +73,7 @@ const Portfolio = () => {
             id:5,
             titre: "Ma facture Freelance", 
             src:Freelance,
+            style_doc: "", 
             site: "https://ma-facturation-freelance.netlify.app/",
             pdfLinks: [
                 { name: 'Documentation', url: '/documentation/factureFreelance/factureFreelance.pdf' }
@@ -89,6 +96,7 @@ const Portfolio = () => {
             titre: "Autres",
             src: glpi,
             style: "hidden",
+            style_doc: "", 
             pdfLinks:[
                 { name: 'GLPI', url: '/documentation/glpi.pdf'},
                 { name: 'Baie Informatique', url: '/documentation/baie.pdf'},
@@ -97,7 +105,20 @@ const Portfolio = () => {
                 { name: 'Comment déployer son Front-End sur le Serveur', url: 'documentation/Deploiement_front .pdf'},
                 { name: 'Comment déployer son Back-End sur le Serveur', url: 'documentation/Deploiement_back.pdf'},
             ]
-        }
+        },
+        {
+            id:7,
+            titre: "Shop_def",
+            style_doc: "hidden", 
+            src:atmosphere,
+            site:"https://webetu.iutnc.univ-lorraine.fr/www/e56682u/Interop/Atmosphere/atmosphere.php"
+        },{
+            id:8,
+            titre: "Shop_def",
+            style_doc: "hidden", 
+            src:circulations,
+            site:"https://webetu.iutnc.univ-lorraine.fr/www/e56682u/Interop/Circulations/circulations.html"
+        },
     ];
     const portfolio_entreprise = [
         {
@@ -150,7 +171,7 @@ const Portfolio = () => {
                     <p className="py-6">Mes projets en école :</p>
                 </div>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                {portfolio_ecole.map(({ id,titre, src, site, style, pdfLinks }) => (
+                {portfolio_ecole.map(({ id,titre, src, site, style, pdfLinks,style_doc }) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <img src={src} alt="" className="rounded-md duration-200 hover:scale-105" />
                         <div className="flex items-center justify-center">
@@ -161,7 +182,7 @@ const Portfolio = () => {
                             </a>
                             <button
                             onClick={() => openModal(pdfLinks, titre)}
-                            className={`w-2/3 px-6 py-3 m-4 duration-200 hover:scale-105`}
+                            className={`w-2/3 px-6 py-3 m-4 duration-200 hover:scale-105 ${style_doc}`}
                             >
                                 Voir la documentation
                             </button>
