@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFileEarmarkExcelFill, BsFillPersonLinesFill } from 'react-icons/bs'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 const SocialLinks = () => {
